@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{9D99E5C4-1E80-4234-96C6-A62CB9359C80}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExampleToXamarin/ViewModel/BaseViewModel.cs">
+    <Files>
+      <File FileName="ExampleToXamarin/MainPage.xaml" Line="35" Column="13" />
+      <File FileName="ExampleToXamarin/IOC/DIContainer.cs" />
+      <File FileName="ExampleToXamarin/IOC/DIRegisterTypes.cs" />
+      <File FileName="ExampleToXamarin/ViewModel/MainViewModel.cs" />
+      <File FileName="ExampleToXamarin/View/ContentViewCustom/UCLabelView.xaml" />
+      <File FileName="ExampleToXamarin/View/ContentViewCustom/UCLabelView.xaml.cs" />
+      <File FileName="ExampleToXamarin/ViewModel/BaseViewModel.cs" Line="15" Column="9" />
+      <File FileName="ExampleToXamarin/AssemblyInfo.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExampleToXamarin" expanded="True">
+            <Node name="ExampleToXamarin" expanded="True">
+              <Node name="IOC" expanded="True" />
+              <Node name="View" expanded="True">
+                <Node name="ContentViewCustom" expanded="True">
+                  <Node name="UCLabelView.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="ViewModel" expanded="True">
+                <Node name="BaseViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ExampleToXamarin.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/slavazolotov/projects/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin/ViewModel/MainViewModel.cs" relfile="ExampleToXamarin/ViewModel/MainViewModel.cs" line="37" column="1" />
+      <Breakpoint file="/Users/slavazolotov/projects/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin/View/ContentViewCustom/UCLabelView.xaml.cs" relfile="ExampleToXamarin/View/ContentViewCustom/UCLabelView.xaml.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

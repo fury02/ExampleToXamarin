@@ -659,33 +659,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fury02\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/slavazolotov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\ExampleToXamarin\\ExampleToXamarin\\ExampleToXamarin\\ExampleToXamarin.csproj",
+      "projectUniqueName": "/Users/slavazolotov/projects/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin.csproj",
       "projectName": "ExampleToXamarin",
-      "projectPath": "Z:\\ExampleToXamarin\\ExampleToXamarin\\ExampleToXamarin\\ExampleToXamarin.csproj",
-      "packagesPath": "C:\\Users\\fury02\\.nuget\\packages\\",
-      "outputPath": "Z:\\ExampleToXamarin\\ExampleToXamarin\\ExampleToXamarin\\obj\\",
+      "projectPath": "/Users/slavazolotov/projects/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin.csproj",
+      "packagesPath": "/Users/slavazolotov/.nuget/packages/",
+      "outputPath": "/Users/slavazolotov/projects/ExampleToXamarin/ExampleToXamarin/ExampleToXamarin/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fury02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/slavazolotov/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -731,7 +722,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }
