@@ -32,7 +32,7 @@
 
             <Label Text="Welcome to Xamarin.Forms!" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
 
-            <usercontrol:UCLabelView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" RandomPublic="{Binding RndPublic}"></usercontrol:UCLabelView>
+            <usercontrol:UCLabelView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" RandomPublic="777"></usercontrol:UCLabelView>
 
             <Button Command="{Binding  CommandStart}" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="6" Text="Start" CornerRadius="2" BackgroundColor="Green"  />
 
