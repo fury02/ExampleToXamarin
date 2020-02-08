@@ -1,0 +1,14 @@
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\bin\Debug\netstandard2.0\ExampleToXamarin.deps.json
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\bin\Debug\netstandard2.0\ExampleToXamarin.dll
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\ExampleToXamarin.csprojAssemblyReference.cache
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\View\ContentViewCustom\UCLabelView.xaml.g.cs
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\ExampleToXamarin.AssemblyInfoInputs.cache
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\ExampleToXamarin.AssemblyInfo.cs
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\bin\Debug\netstandard2.0\ref\ExampleToXamarin.dll
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\bin\Debug\netstandard2.0\ExampleToXamarin.pdb
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\ExampleToXamarin.dll
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\ref\ExampleToXamarin.dll
+Z:\ExampleToXamarin\ExampleToXamarin\ExampleToXamarin\obj\Debug\netstandard2.0\ExampleToXamarin.pdb

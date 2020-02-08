@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ExampleToXamarin.View.ContentViewCustom.UCLabelView">
+    <StackLayout>
+
+        <Frame BindingContext="{x:Reference this}"  BackgroundColor="Azure" BorderColor="Black">
+            <Label x:Name="LabelRandomPublic"  FontSize="Micro" TextColor="Gray" Text="{Binding RandomPublic, FallbackValue='my public rnd'}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        </Frame>
+
+        <Label FontSize="Micro" TextColor="Gray" Text="Random" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"></Label>
+
+    </StackLayout>
+</ContentView>
