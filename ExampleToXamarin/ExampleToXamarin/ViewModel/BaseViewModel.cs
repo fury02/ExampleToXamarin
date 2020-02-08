@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace ExampleToXamarin.ViewModel
 {
-    class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

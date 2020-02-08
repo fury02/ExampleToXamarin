@@ -9,12 +9,11 @@ using Xamarin.Forms.Xaml;
 
 namespace ExampleToXamarin.View.ContentViewCustom
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UCLabelView : ContentView
     {
         // BindableProperty
-        public static readonly BindableProperty PropertyRandomPublic = BindableProperty.Create(
-                propertyName: nameof(PropertyRandomPublic),
+        public static readonly BindableProperty RandomPublicProperty = BindableProperty.Create(
+                propertyName: nameof(RandomPublic),
                 returnType: typeof(string),
                 declaringType: typeof(UCLabelView),
                 defaultValue: default(string),
@@ -23,8 +22,8 @@ namespace ExampleToXamarin.View.ContentViewCustom
 
         public string RandomPublic
         {
-            get => (string)GetValue(PropertyRandomPublic);
-            set => SetValue(PropertyRandomPublic, value);
+            get => (string)GetValue(RandomPublicProperty);
+            set => SetValue(RandomPublicProperty, value);
         }
 
         // Handler

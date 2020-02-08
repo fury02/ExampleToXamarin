@@ -14,7 +14,7 @@ using ExampleToXamarin.Infrastructure.Interface;
 
 namespace ExampleToXamarin.ViewModel
 {
-    class MainViewModel : BaseViewModel
+    public class MainViewModel : BaseViewModel
     {
         private IRandomAddresses randomAddresses;
 
