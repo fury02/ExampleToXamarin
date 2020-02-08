@@ -9,22 +9,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ExampleToXamarin.MainPage">
-    
+
     <ContentPage.BindingContext>
         <datacontext:MainViewModel></datacontext:MainViewModel>
     </ContentPage.BindingContext>
 
- 
-
-    <StackLayout>
+    <StackLayout BackgroundColor="White">
          
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
- 
         <Grid BackgroundColor="White">
 
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"></ColumnDefinition>
                 <ColumnDefinition Width="50"></ColumnDefinition>
                 <ColumnDefinition Width="50"></ColumnDefinition>
             </Grid.ColumnDefinitions>
@@ -32,12 +27,14 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
                 <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
             </Grid.RowDefinitions>
 
+            <Label Text="Welcome to Xamarin.Forms!" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
 
-            <usercontrol:UCLabelView Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5" ></usercontrol:UCLabelView>
+            <usercontrol:UCLabelView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" RandomPublic="{Binding RndPublic}"></usercontrol:UCLabelView>
 
-            <Button Command="{Binding  CommandStart}" Grid.Row="12" Grid.Column="1" Grid.ColumnSpan="5" Text="Start" CornerRadius="2" BackgroundColor="Green"  />
+            <Button Command="{Binding  CommandStart}" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="6" Text="Start" CornerRadius="2" BackgroundColor="Green"  />
 
         </Grid>
 
